@@ -9,7 +9,7 @@ class Game:
         pygame.init()                                         #inicializace pygame
 
         #okno
-        pygame.display.set_caption("Ninja game")                #jméno okna
+        pygame.display.set_caption("Ninja game")                  #jméno okna
         self.screen = pygame.display.set_mode((640, 480))         #souřadnice 0,0 jsou vlevo nahoře
 
         self.clock = pygame.time.Clock()
