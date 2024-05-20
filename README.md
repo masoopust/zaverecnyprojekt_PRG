@@ -20,6 +20,12 @@ Dále jsem se naučil jak fungují "kolize". Udělal jsem si obdélník, přes k
 
 Založil jsem soubor entities, díky kterému se postavička pohybuje doleva a doprava. 
 
-V souboru utility načítám obrázky ze složky data a nasledných podsložek.  
+V souboru utils načítám obrázky ze složky data a nasledných podsložek.  
 
 Založil jsem soubor tutorial, kde ukládám všechny "pomocné" kódy, které mi pomáhaly otestovat různé funkce v programu např. kolize.
+
+### Update 3 (2 hodiny)
+
+Založil jsem soubor tilemap ve kterém renderuji ze složky ninjagame/data/images/tiles, které načítám pomocí souboru utils, konkrétně funkce load_images().
+
+Vytřídil jsem a uklidil v samotné složce, dal souborům a složkám smysluplné názvy.  
