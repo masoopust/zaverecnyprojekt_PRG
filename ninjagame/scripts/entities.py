@@ -17,7 +17,7 @@ class PhysicsEntity:
         self.pos[1] += frame_movement[1]     #update pozice na ose Y
 
     def render(self, surf):
-        surf.blit(self.platformer.assets["Player"], self.pos)
+        surf.blit(self.platformer.assets["player"], self.pos)
 
 
 

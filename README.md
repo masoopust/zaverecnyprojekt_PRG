@@ -5,7 +5,7 @@ Plánuji udělat hru za pomocí knihovny Pygame.
 Jako své výchozí IDE jsem zvolil PyCharm.
 
 ## Deník
-### 1. den (4 hodiny)
+### Update 1 (4 hodiny)
 
 Zvolil jsem si nové IDE, se kterým mám nulové zkušenosti na doporučení spolužáka.
 
@@ -16,7 +16,7 @@ první mrak, který se ovládá pomocí šípek.
 
 Dále jsem se naučil jak fungují "kolize". Udělal jsem si obdélník, přes který projížděl výše zmíněný mrak, když na něj najel, změnila se barva toho detekčního obdelníka.
 
-### 2. den (2 hodiny)
+### Update 2 (2 hodiny)
 
 Založil jsem soubor entities, díky kterému se postavička pohybuje doleva a doprava. 
 
