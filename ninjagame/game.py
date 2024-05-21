@@ -38,7 +38,7 @@ class Game:
 
             self.tilemap.render(self.display)
 
-            self.player.update((self.movement[1] - self.movement[0], 0))         # na ose Y je 0 protože platformer je zleva doprava a naopak
+            self.player.update(self.tilemap, (self.movement[1] - self.movement[0], 0))         # na ose Y je 0 protože platformer je zleva doprava a naopak
             self.player.render(self.display)
 
             self.player.render(self.screen)
@@ -52,6 +52,8 @@ class Game:
                         self.movement[0] = True
                     if event.key == pygame.K_RIGHT:                          #kontroluje zmáčknutí right klávesy
                         self.movement[1] = True
+                    if event.key == pygame.K_UP:                               #kontroluje zmáčknuti šipky nahoru
+                        self.player.velocity[1] = -3                           #skočí o 3
                 if event.type == pygame.KEYUP:
                     if event.key == pygame.K_LEFT:                            #kontroluje puštění left klávesy
                         self.movement[0] = False
