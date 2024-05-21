@@ -29,3 +29,11 @@ Založil jsem soubor tutorial, kde ukládám všechny "pomocné" kódy, které m
 Založil jsem soubor tilemap ve kterém renderuji ze složky ninjagame/data/images/tiles, které načítám pomocí souboru utils, konkrétně funkce load_images().
 
 Vytřídil jsem a uklidil v samotné složce, dal souborům a složkám smysluplné názvy.  
+
+### Update 4 (1 hodina)
+
+Začaly se kolem ninjy vytvářet imaginární obdelníčky, které kontrolují kolizi s podlahou (to způsobí, že se nepropadnu do země), či se stěnou (neprojdu zdí), každá kolize funguje na principu obelníček překryje obdelníček a něco se stane.
+
+Nabindoval jsem dále skákání (zatím infinity) na šipku nahoru, abych mohl otestovat kolize shora a zdola. 
+
+Nastavil jsem padání na max rychlost 5, každý frame se postupně zvyšuje rychlost, kterou panáček padá až na max hodnotu. (velocity)
