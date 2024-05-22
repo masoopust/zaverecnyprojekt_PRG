@@ -37,3 +37,11 @@ Začaly se kolem ninjy vytvářet imaginární obdelníčky, které kontrolují 
 Nabindoval jsem dále skákání (zatím infinity) na šipku nahoru, abych mohl otestovat kolize shora a zdola. 
 
 Nastavil jsem padání na max rychlost 5, každý frame se postupně zvyšuje rychlost, kterou panáček padá až na max hodnotu. (velocity)
+
+### Update 5 (1 hodina)
+
+Naučil jsem se s kamerou, chytá se na panáčka, ovšem se pohybuje pomaleji (vytváří efekt rychlosti), když se zastavím vycentruje mi panáčka.
+
+Do pozadí jsem dal background.png
+
+Vytvořil jsem soubor clouds.py, kde se mi vytváří 16 náhgodných mraků, které jsou v loopu, díky modulu, tudíž vždy zajedou vpravo a objeví se vlevo a naopak.
