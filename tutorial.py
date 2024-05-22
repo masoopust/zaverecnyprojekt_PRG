@@ -28,6 +28,11 @@ img_r = pygame.Rect(self.img_pos[0], self.img_pos[1], self.img.get_width(),self.
 
 
 
+# pohyb kamery
+"""
+self.scroll[0] += 1                        #vidím, že kamera se hýbe doprava
+"""
+
 
 
 
