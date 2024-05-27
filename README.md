@@ -48,7 +48,7 @@ Vytvořil jsem soubor clouds.py, kde se mi vytváří 16 náhgodných mraků, kt
 
 ### Update 6 (1 hodina)
 
-Stáhl jsem Pycharm i na jiný počítač a naučil se více pracovat s githubem (klonovat, pull, push...)
+Stáhl jsem Pycharm i na jiný počítač a naučil se více pracovat s Githubem (klonovat, pull, push...)
 
 Optimalizoval jsem renderování pixelů, aktuálně se mi renderují jen pixely, co jsou viditelné na obrazovce, pixely mimo obrazovku vůbec nerenderuji a hra je díky tomuto plynulejší.
 

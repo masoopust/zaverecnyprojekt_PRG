@@ -27,7 +27,7 @@ class Animation:                    # class animation se stará o animace
         self.frame = 0                  # díky této proměnné víme, v jaké fázi animace jsme
 
     def copy(self):
-        return Animation(self.images, self.img_duration, self.loop)         # pro všechny animace máme tyto proměnnné proto zavádíme fci copy(), abychom to nemuseli furt vypisovat
+        return Animation(self.images, self.img_duration, self.loop)          # pro všechny animace máme tyto proměnnné proto zavádíme fci copy(), abychom to nemuseli furt vypisovat
 
     def update(self):
         if self.loop:

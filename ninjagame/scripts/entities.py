@@ -70,7 +70,7 @@ class PhysicsEntity:
 
 class Player(PhysicsEntity):
     def __init__(self, game, pos, size):
-        super().__init__(game, 'player', pos, size)   #super().init bere init z před
+        super().__init__(game, 'player', pos, size)    #super().init bere init z před
         self.air_time = 0
 
     def update(self, tilemap, movement=(0, 0)):
