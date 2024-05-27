@@ -1,7 +1,7 @@
 import random
 
 
-class Cloud:            # tato třída vytváří samotný "pohyb" mraku, který se loopuje dokola díky modulu
+class Cloud:  # tato třída vytváří samotný "pohyb" mraku, který se loopuje dokola díky modulu
     def __init__(self, pos, img, speed, depth):
         self.pos = list(pos)
         self.img = img

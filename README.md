@@ -45,3 +45,15 @@ Naučil jsem se s kamerou, chytá se na panáčka, ovšem se pohybuje pomaleji (
 Do pozadí jsem dal background.png
 
 Vytvořil jsem soubor clouds.py, kde se mi vytváří 16 náhgodných mraků, které jsou v loopu, díky modulu, tudíž vždy zajedou vpravo a objeví se vlevo a naopak.
+
+### Update 6 (1 hodina)
+
+Stáhl jsem Pycharm i na jiný počítač a naučil se více pracovat s githubem (klonovat, pull, push...)
+
+Optimalizoval jsem renderování pixelů, aktuálně se mi renderují jen pixely, co jsou viditelné na obrazovce, pixely mimo obrazovku vůbec nerenderuji a hra je díky tomuto plynulejší.
+
+### Update 7 (2 hodiny)
+
+Nastudoval jsem si princip animací, jejich délku trvání, flipování podle osy X (jestli běžíme vlevo, či vpravo), že potřebujeme "rezervovat" větší místo pro frame běžícího panáčka, protože má nohy více do šířky.
+
+Přidal jsem si logiku animací pro ninju, pokud je ve vzduchu tak má animaci skoku, pokud není ve vzduchu ale pohybuje se po ose X, tak má animaci běhu, pokud nedělá ani jedno z toho, tak nemá animaci žádnou.
