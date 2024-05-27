@@ -9,7 +9,7 @@
 self.img = pygame.image.load("data/images/clouds/cloud_1.png")
 self.img.set_colorkey((0, 0, 0))                                         # tato barva (0,0,0)(černá)  bude transparentní a zmizí tak pozadí mraku
 
-self.img_pos = [160, 260]                                                    # souřadnice pozice mraku
+self.img_pos = [160, 260]                                                     # souřadnice pozice mraku
 self.movement = [False, False]
 
 # kolize
